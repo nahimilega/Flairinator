@@ -13,7 +13,7 @@ def intilise_database():
     """
     myclient = pymongo.MongoClient("mongodb://localhost:27017/")
     mydb=myclient['subreddit']
-    maintable = mydb["posts"]
+    maintable = mydb["posts2"]
     return maintable
 
 
