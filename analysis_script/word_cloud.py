@@ -2,6 +2,10 @@ from wordcloud import WordCloud, STOPWORDS
 import matplotlib.pyplot as plt
 stopwords = set(STOPWORDS)
 
+
+# Make wordcloud for all the flairs
+# All charts in graph folder
+
 def show_wordcloud(data,file_name, title = None ):
     wordcloud = WordCloud(
         background_color='white',
@@ -9,7 +13,7 @@ def show_wordcloud(data,file_name, title = None ):
         max_words=200,
         max_font_size=40,
         scale=3,
-        random_state=1 # chosen at random by flipping a coin; it was heads
+        random_state=1
     ).generate(str(data))
 
     fig = plt.figure(1, figsize=(12, 12))

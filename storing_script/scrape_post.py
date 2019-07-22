@@ -3,6 +3,10 @@ import pymongo
 import time
 import json
 
+# This Script is used to scrape the posts
+# It uses reddit API do to the same
+
+
 
 count = 0
 

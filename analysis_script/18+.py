@@ -1,7 +1,8 @@
 import matplotlib.pyplot as plt
 import pymongo
 
-
+# Make pi chart of 18+ posts
+# All charts in graph folder
 
 def intilise_database(db_name):
     """

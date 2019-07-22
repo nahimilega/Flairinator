@@ -2,7 +2,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pymongo
 
-
+# Make chart of comments vs upvotes for all the flair
+# All charts in graph folder
 
 def intilise_database():
     """

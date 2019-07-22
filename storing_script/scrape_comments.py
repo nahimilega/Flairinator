@@ -1,6 +1,7 @@
 import praw
 import pymongo
 
+# This post is used to scrape comments
 
 def intilise_database():
     """
@@ -57,7 +58,6 @@ def find_comment_data(comment):
 
 
 def update_post(submission, ids, post_table):
-    # print(type(submission.upvote_ratio))
 
     post_table.update_one({'post_id':ids},{'$set':{'upvote_ratio':submission.upvote_ratio}})
     post_table.update_one({'post_id':ids},{'$set':{'spoiler':submission.spoiler}})
@@ -67,9 +67,10 @@ def update_post(submission, ids, post_table):
 
 def run():
     maintable, post_table = intilise_database()
-    r = praw.Reddit(client_id='z7qca-tKVKM3iA', \
-                     client_secret='69ZHFSBGLJ_-EmZoV1pmdrOLCks', \
-                     user_agent='njnsdji iapojpoad/1.3'
+
+    r = praw.Reddit(client_id='', # Fill ME
+                     client_secret='',
+                     user_agent=' Reddit Analyze/1.3'
                      )
 
     count = 1

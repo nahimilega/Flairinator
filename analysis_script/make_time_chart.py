@@ -6,6 +6,9 @@ import pymongo
 from datetime import datetime
 from collections import Counter
 
+# Make chart of busy hours
+# All charts in graph folder
+
 
 def intilise_database():
     """
