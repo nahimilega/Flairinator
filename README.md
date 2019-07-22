@@ -50,7 +50,9 @@ $ python deploy.py
 
 
 ## Database Model
-(Note - I could not upload the comment db because of github limit of 100 mb)
+(Note - I could not upload the comment db because of github limit of 100 mb) </br>
+https://drive.google.com/file/d/1zCjKkd5xEue2moViP3OJX8kKzbaOyqSv/view?usp=sharing   </br>
+This is the link to the collection which is greater than 100 mb. Download it and paste in in the db/subreddit folder.
 #### Database name - Subreddit
 
 **Collections**
