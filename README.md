@@ -47,7 +47,7 @@ $ cd website
 $ python deploy.py
 
 ```
-(make sure to run all the nltk modules mentioned in nltk.txt in `website` folder)
+(make sure to run all the nltk modules mentioned in `nltk.txt` in `website` folder)
 
 ## Database Model
 (Note - I could not upload the comment db because of github limit of 100 mb) </br>
@@ -79,7 +79,7 @@ This is the link to the collection which is greater than 100 mb. Download it and
 ## Data Collection
 For the purpose of collecting the posts of subreddit, I made scrape_post.py scripts which uses reddit api to get the posts, as the reddit api only gave a limited number of posts, I scraped multiple links and even the surch results to get the maximum number of posts. I manage to scrape 8341 posts. </br>
 
-To get all the comments corresponding to a post, I wrote a scrape_post.py script. It uses PRAW(The Python Reddit API Wrapper). It scrapes all the comments corresponding to all the posts which were scraped previously and store them in `comments` collection on db. </br>
+To get all the comments corresponding to a post, I wrote a scrape_post.py script. It uses PRAW(The Python Reddit API Wrapper). It scrapes all the comments corresponding to all the posts which were scraped previously and store them in `comments` collection on db. I managed to scrape 838514 comments </br>
 
 ## Libraries Used
 This project relies on Flask with Jinja for handling the web display and serving of pages. PRAW was used to scrape data from the reddit. For preprocessing of text, nltk is used.
