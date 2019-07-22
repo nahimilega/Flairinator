@@ -29,10 +29,25 @@ Download this repository
 ```
 $ git clone https://github.com/nahimilega/subreddit-analyzer.git
 ```
+Create a python virtual environment and activate it:
+```
+python3 -m venv ven
+source ven/bin/activate
+cd ven/
+```
+
 Use the package manager pip to install dependencies of this project
 ```
 $ pip install -r requirements.txt
 ```
+
+To run the website -
+```
+$ cd website
+$ python deploy.py
+
+```
+
 
 ## Database Model
 (Note - I could not upload the comment db because of github limit of 100 mb)
@@ -61,6 +76,7 @@ $ pip install -r requirements.txt
 ## Data Collection
 
 ## Libraries Used
+This project relies on Flask with Jinja for handling the web display and serving of pages. PRAW was used to scrape data from the reddit. For preprocessing of text, nltk is used.
 
 ## Major Learnings
 
