@@ -5,12 +5,12 @@ Website url: [https://vast-plateau-92435.herokuapp.com/](https://vast-plateau-92
 
 ## Directory Structure
 Note: All the scripts are make by taking an assumption that the txt files needed are in the same directory as that of script.
-Website: Contains the website (Made using flask)
-tfidf: Scripts to compute TF-IDF
-tfs: Contains files having TF-IDF value of all the words in a flair
-wordcloud: Word cloud of all the flairs
-useless: Contains some randon scripts that were once used during development
-storing_scripts: Scripts used for scraping the reddit posts and comments
+Website: Contains the website (Made using flask) </br>
+tfidf: Scripts to compute TF-IDF </br>
+tfs: Contains files having TF-IDF value of all the words in a flair </br>
+wordcloud: Word cloud of all the flairs </br>
+useless: Contains some randon scripts that were once used during development </br>
+storing_scripts: Scripts used for scraping the reddit posts and comments </br>
 
 
 ## Database Model
@@ -20,20 +20,20 @@ storing_scripts: Scripts used for scraping the reddit posts and comments
 **Collections**
 **posts2** : Stores all the scraped posts
 
-'post_id': post id,
-'author': name of the author ,
-'title': Title of the post,
-'flair': Flair of the post,
-'time': Time of creation of the post(UTC),
-'over_18': (bool) is the post over 18,
-'num_comment': Number of comments on the post,
-'upvote': Upvotes on the posts,
+'post_id': post id  </br>
+'author': name of the author , </br>
+'title': Title of the post, </br>
+'flair': Flair of the post, </br>
+'time': Time of creation of the post(UTC), </br>
+'over_18': (bool) is the post over 18, </br>
+'num_comment': Number of comments on the post, </br>
+'upvote': Upvotes on the posts, </br>
 
 **comments**: Store all the comments of all the scraped posts
-'body': Body of the comment,
-'time': Time of comment creation(UTC),
-'author': Author of comment,
-'upvotes': Upvotes on the comment,
+'body': Body of the comment, </br>
+'time': Time of comment creation(UTC), </br>
+'author': Author of comment, </br>
+'upvotes': Upvotes on the comment, </br>
 
 
 
