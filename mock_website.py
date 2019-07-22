@@ -8,7 +8,7 @@ import preprocess_test as ppt
 flairs = ['Photography','Politics', 'Non-Political', 'AskIndia', '[R]eddiquette', 'Policy/Economy', 'Business/Finance', 'Science/Technology', 'Sports', 'Food' ]
 
 
-
+# This script contains the mock of the code that is used in the website to process the request by the user
 
 
 def read_file(filename):

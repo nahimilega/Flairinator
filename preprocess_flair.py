@@ -1,6 +1,6 @@
 import pymongo
 
-import preprocess_test as ppt
+import preprocess_text as ppt
 import tfidf
 from collections import Counter
 

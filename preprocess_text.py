@@ -9,6 +9,7 @@ from nltk.stem import WordNetLemmatizer
 # nltk.download('averaged_perceptron_tagger')
 # nltk.download('stopwords')
 
+# This script preprocess the string it recieve
 
 
 def convert_lowercase(all_words):

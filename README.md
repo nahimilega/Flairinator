@@ -2,16 +2,28 @@
 # subreddit-analyzer
 
 Website url: [https://vast-plateau-92435.herokuapp.com/](https://vast-plateau-92435.herokuapp.com/)
-
+**Note**: Unfortunately I could not add the graph of the analysis of the data in the website because of memory problems. (I used up all 500 MB of memory provided by heroku, just barely managed to fit the website)
+You can find all the graphs(that were to be posted on website) inside graph folder
 ## Directory Structure
 Note: All the scripts are make by taking an assumption that the txt files needed are in the same directory as that of script.
-Website: Contains the website (Made using flask) </br>
-tfidf: Scripts to compute TF-IDF </br>
-tfs: Contains files having TF-IDF value of all the words in a flair </br>
-wordcloud: Word cloud of all the flairs </br>
-useless: Contains some randon scripts that were once used during development </br>
-storing_scripts: Scripts used for scraping the reddit posts and comments </br>
+**Website**: Contains the website (Made using flask) </br>
+**tfidf**: Scripts to compute TF-IDF </br>
+**tfs**: Contains files having TF-IDF value of all the words in a flair </br>
+**wordcloud**: Word cloud of all the flairs </br>
+**useless**: Contains some random scripts that were once used during development </br>
+**storing_scripts**: Scripts used for scraping the reddit posts and comments </br>
 
+
+## Installation
+
+Download this repository
+```
+$ git clone https://github.com/nahimilega/subreddit-analyzer.git
+```
+Use the package manager pip to install dependencies of this project
+```
+$ pip install -r requirements.txt
+```
 
 ## Database Model
 (Note - I could not upload the comment db because of github limit of 100 mb)
@@ -35,9 +47,13 @@ storing_scripts: Scripts used for scraping the reddit posts and comments </br>
 'author': Author of comment, </br>
 'upvotes': Upvotes on the comment, </br>
 
+## Algorithms
 
+## Data Collection
 
+## Libraries Used
 
+## Major Learnings
 
 ## Referances:
 
