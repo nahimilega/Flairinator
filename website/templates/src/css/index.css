@@ -1,0 +1,44 @@
+body {
+    background-color: black;
+}
+#searchbar {
+    margin-top: 200px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: left;
+}
+#searchbar input {
+    width: 90%;;
+    background-color: white;
+    border: 0px solid black;
+    outline: 0;
+}
+#searchbar button {
+    background-color: white;
+    border: 0px;
+}
+#searchbar a.dropdown-trigger {
+    width: 20%;
+    margin-left: 2%;
+    background-color: #e9edf0;
+    border: 0px;
+    
+    
+}
+#searchbar button i {
+    color: black;
+}
+#click {
+    
+    background-color: black;
+    font-size: 130%;
+    color: white;
+    border: 0px;
+    outline: 0;
+}
+ul li a{
+    text-decoration: none;
+}
