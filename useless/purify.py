@@ -1,4 +1,4 @@
-flairs = ['Photography','Politics', 'Non-Political', 'Science/Technology','AskIndia', '[R]eddiquette', 'Policy/Economy', 'Business/Finance',  'Scheduled', 'Sports', 'Food' ]
+flairs = ['Photography','Politics', 'Non-Political', 'Science/Technology','AskIndia', '[R]eddiquette', 'Policy/Economy', 'Business/Finance', 'Sports', 'Food' ]
 
 c ='Science/Technology'
 
@@ -24,7 +24,7 @@ if __name__ == "__main__":
         cctr=0
         for kk in all_of:
             cctr += kk[aaa]
-        if cctr > 9:
+        if cctr > 0:
             final.append(aaa)
 
     with open('final.txt', mode='w') as f:
