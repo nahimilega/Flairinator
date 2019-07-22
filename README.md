@@ -1,7 +1,16 @@
 
 # subreddit-analyzer
 
-Website url: [https://vast-plateau-92435.herokuapp.com/](https://vast-plateau-92435.herokuapp.com/)
+Website url: [https://vast-plateau-92435.herokuapp.com/](https://vast-plateau-92435.herokuapp.com/) </br>
+
+**Instructions to use website**
+You can either enter the text of the post for which you want to know flair, or you can enter the URL of a valid reddit post. Make sure to select TEXT or URL from the dropdown. </br>
+**After clicking on search button wait for 15 sec**
+
+</br>
+
+
+
 **Note**: Unfortunately I could not add the graph of the analysis of the data in the website because of memory problems. (I used up all 500 MB of memory provided by heroku, just barely managed to fit the website)
 You can find all the graphs(that were to be posted on website) inside graph folder
 ## Directory Structure
